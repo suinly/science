@@ -18,7 +18,7 @@
                 </div>
                 <div class="site-head-content inner">
                     {{#if @blog.logo}}<a href="{{@blog.url}}"><div class="blog-logo" {{#if @blog.logo}}style="background-image: url({{@blog.logo}})"{{/if}}></div></a>{{/if}}
-                    <h1 class="blog-title">{{@blog.title}}</h1>
+                    <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
                     <h2 class="blog-description">{{@blog.description}}</h2>
                     <h6>#all</h6>
                 </div>
@@ -34,25 +34,7 @@
                 <article class="{{post_class}}" data-url="{{url}}" id="post{{id}}">
                     <header class="post-header">
                         <div class="icon">
-                            {{#has tag="video"}}
-                                <i class="fa fa-film" rel="tooltip" title="Видео"></i>
-                            {{/has}}
-
-                            {{#has tag="photo"}}
-                                <i class="fa fa-photo" rel="tooltip" title="Фото"></i>
-                            {{/has}}
-
-                            {{#has tag="music"}}
-                                <i class="fa fa-music" rel="tooltip" title="Музыка"></i>
-                            {{/has}}
-
-                            {{#has tag="link"}}
-                                <i class="fa fa-share" rel="tooltip" title="Ссылка"></i>
-                            {{/has}}
-
-                            {{^has tag="photo,video,music"}}
-                                <i class="fa fa-bars"></i>
-                            {{/has}}
+                            {{> posticon}}
                         </div>
                         <div class="post-title" title="{{title}}">{{{title}}}</div>
                         <div class="post-excerpt">{{excerpt characters="20"}}&#8230;</div>

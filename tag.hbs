@@ -34,25 +34,7 @@
                 <article class="{{post_class}}" data-url="{{url}}" id="post{{id}}">
                     <header class="post-header">
                         <div class="icon">
-                            {{#has tag="video"}}
-                                <i class="fa fa-film" rel="tooltip" title="Видео"></i>
-                            {{/has}}
-
-                            {{#has tag="photo"}}
-                                <i class="fa fa-photo" rel="tooltip" title="Фото"></i>
-                            {{/has}}
-
-                            {{#has tag="music"}}
-                                <i class="fa fa-music" rel="tooltip" title="Музыка"></i>
-                            {{/has}}
-
-                            {{#has tag="link"}}
-                                <i class="fa fa-share" rel="tooltip" title="Ссылка"></i>
-                            {{/has}}
-
-                            {{^has tag="photo,video,music"}}
-                                <i class="fa fa-bars"></i>
-                            {{/has}}
+                            {{> posticon}}
                         </div>
                         <div class="post-title" title="{{title}}">{{{title}}}</div>
                         <div class="post-excerpt">{{excerpt characters="20"}}&#8230;</div>

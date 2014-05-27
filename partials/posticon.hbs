@@ -1,0 +1,23 @@
+{{#has tag="video"}}
+    <i class="fa fa-film" rel="tooltip" title="Видео"></i>
+{{/has}}
+
+{{#has tag="photo"}}
+    <i class="fa fa-photo" rel="tooltip" title="Фото"></i>
+{{/has}}
+
+{{#has tag="music"}}
+    <i class="fa fa-music" rel="tooltip" title="Музыка"></i>
+{{/has}}
+
+{{#has tag="link"}}
+    <i class="fa fa-share" rel="tooltip" title="Ссылка"></i>
+{{/has}}
+
+{{#has tag="copy"}}
+    <i class="fa fa-copy" rel="tooltip" title="Копипаста"></i>
+{{/has}}
+
+{{^has tag="photo,video,music,link"}}
+    <i class="fa fa-align-left"></i>
+{{/has}}
