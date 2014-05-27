@@ -19,15 +19,15 @@ a, a:hover {
     font-size: 2em;
     display: none;
     opacity: 0.2;
-    margin-left: -60px;
     height: 100%;
+    left: 0px;
 }
 
 .container .back-to-top:hover {
     opacity: 0.4;
 }
 
-/*
+/**
  * Site header
  */
 header.site-head {
@@ -102,6 +102,7 @@ header.site-head .blog-title a:hover {
 }
 header.site-head .blog-description {
     font-size: 1.4em;
+    margin-top: 10px;
 }
 header.site-head .blog-logo {
     width: 100px;
@@ -291,8 +292,8 @@ article.post footer.post-footer section.author {
     min-height: 90px;
 }
 article.post footer.post-footer section.author .image {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     -webkit-background-size: cover !important;
     background-size: cover !important;
@@ -300,13 +301,19 @@ article.post footer.post-footer section.author .image {
     background-color: #ffffff;
     display: inline-block;
 }
+article.post footer.post-footer section.author .title {
+    font-size: 1em;
+    font-weight: 300;
+    color: #777;
+}
 article.post footer.post-footer section.author .name {
     display: inline-block;
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 400;
 }
 article.post footer.post-footer section.author .bio {
     margin-bottom: 5px;
+    font-weight: 300;
 }
 article.post footer.post-footer section.author .meta {
     float: right;
