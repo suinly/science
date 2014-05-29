@@ -4,6 +4,10 @@ The custom theme for [Ghost](http://github.com/tryghost/ghost/).
 
 ![](http://habrastorage.org/files/286/1d9/372/2861d9372b544e03b50e62430549cd62.PNG)
 
+![](http://habrastorage.org/files/fcb/6c2/ae8/fcb6c2ae832e428790681bb200664422.PNG)
+
+![](http://habrastorage.org/files/a32/ec1/cf1/a32ec1cf1f6d4459baf640a793c4e498.PNG)
+
 ## Copyright & License
 
 Copyright (c) 2014 Suinly - Released under the MIT License.
