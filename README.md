@@ -2,11 +2,11 @@
 
 The custom theme for [Ghost](http://github.com/tryghost/ghost/).
 
-![](http://habrastorage.org/files/286/1d9/372/2861d9372b544e03b50e62430549cd62.PNG)
+![](http://habrastorage.org/files/b02/08d/8ac/b0208d8ac07043ef8ac99a876de39149.PNG)
 
-![](http://habrastorage.org/files/fcb/6c2/ae8/fcb6c2ae832e428790681bb200664422.PNG)
+![](http://habrastorage.org/files/afe/417/8c7/afe4178c71a14dcba5fb7d2ec8fce07f.PNG)
 
-![](http://habrastorage.org/files/a32/ec1/cf1/a32ec1cf1f6d4459baf640a793c4e498.PNG)
+![](http://habrastorage.org/files/ba8/826/26b/ba882626bbba41ca870484b17ab63779.PNG)
 
 ## Copyright & License
 
