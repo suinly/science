@@ -18,7 +18,7 @@
                 </div>
                 <div class="site-head-content inner">
                     {{#if @blog.logo}}<a href="{{@blog.url}}"><div class="blog-logo" {{#if @blog.logo}}style="background-image: url({{@blog.logo}})"{{/if}}></div></a>{{/if}}
-                    <h1 class="blog-title">{{@blog.title}}</h1>
+                    <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
                     <h2 class="blog-description">{{@blog.description}}</h2>
                     <h6>#{{tag.name}}</h6>
                 </div>
