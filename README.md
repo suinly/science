@@ -1,14 +1,10 @@
 # Science
 
-[DEMO](http://suinly.com)
-
 The custom theme for [Ghost](http://github.com/tryghost/ghost/).
 
 ![](http://habrastorage.org/files/b02/08d/8ac/b0208d8ac07043ef8ac99a876de39149.PNG)
 
 ![](http://habrastorage.org/files/afe/417/8c7/afe4178c71a14dcba5fb7d2ec8fce07f.PNG)
-
-![](http://habrastorage.org/files/ba8/826/26b/ba882626bbba41ca870484b17ab63779.PNG)
 
 ## Copyright & License
 
